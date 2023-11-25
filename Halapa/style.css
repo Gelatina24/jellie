@@ -1,0 +1,122 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    background-image: url(123.jpg);
+    background-position: center;
+    height: 90vh;;
+    background-size: 1800px;
+    
+    
+}
+
+
+/* Reset some default styles */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Style the navbar */
+.navbar {
+    background-color: burlywood;
+    color:white;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the logo */
+.logo {
+    font-size: 30px;
+    margin-left: 0;
+    letter-spacing: 2px;
+    color:black;
+}
+
+/* Style the navigation links */
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: large;
+   
+}
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .nav-links {
+        margin-top: 20px;
+    }
+
+    .nav-links li {
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+
+div {
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-top: 275px;
+    transition: 0.9s;
+    letter-spacing: normal;
+}
+
+h1 {
+    font-size: 70px;
+    color:white;
+    margin-left: 300px;
+
+}
+
+p {
+    font-size: 50px;
+    color:white;
+    margin-left: 50px;
+    
+    
+    
+   
+}
+p.copyright{
+    position: fixed;
+    width: 100%;
+    color:black;
+    line-height: normal;
+    font-size: 20px;
+    bottom: 40px;
+    margin-left: 500px;
+
+}
+
+                           
+    
+
